@@ -1,0 +1,100 @@
+﻿
+@{
+    ViewData["Title"] = "News";
+    ViewData["Footer"] = "Figyelmeztetés: Ezek a hírek mesterséges intelligencia által generált tartalmak, nem valós eseményekre utalnak.";
+}
+
+<h1>Hírek</h1>
+
+<hr />
+
+<div class="row mb-5" data-masonry="{&quot;percentPosition&quot;: true }">
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <img src="images/pencil_table.jpg" class="card-img-top" alt="Táblazatot kitöltő kéz" />
+            <div class="card-body">
+                <h5 class="card-title">Új adózási szabályok bevezetése</h5>
+                <p class="card-text">A kormány bejelentette az adózási szabályok új változásait, egyszerűsítve a rendszert és növelve a versenyképességet...</p>
+                <a asp-action="Details" asp-route-id="1" class="card-link">Tudjon meg többet</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h5 class="card-title">Pályázati lehetőségek a vállalkozások számára</h5>
+                <p class="card-text">Új pályázati lehetőségek nyíltak meg a vállalkozások előtt, segítve fejlődésüket és növelve versenyképességüket...</p>
+                <a asp-action="Details" asp-route-id="2" class="card-link">Tudjon meg többet</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <img src="images/hand_calculator.jpg" class="card-img-top" alt="Számológépet nyomkod egy kéz" />
+            <div class="card-body">
+                <h5 class="card-title">Új számviteli irányelvek bevezetése</h5>
+                <p class="card-text">Friss hír! Az új számviteli irányelvek bevezetésre kerültek, növelve a számviteli folyamatok hatékonyságát és az összehangoltságot...</p>
+                <a asp-action="Details" asp-route-id="3" class="card-link">Tudjon meg többet</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h5 class="card-title">Együttműködési megállapodás a nemzetközi piacokon</h5>
+                <p class="card-text">Üdvözöljük a nemzetközi együttműködés új szakaszát! Cégünk sikeres együttműködési megállapodást kötött nemzetközi piaci szereplőkkel, nyitva új üzleti lehetőségeket...</p>
+                <a asp-action="Details" asp-route-id="4" class="card-link">Tudjon meg többet</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h5 class="card-title">Az Év Vállalkozója díjazottunk a piacvezetésért</h5>
+                <p class="card-text">Büszkén köszöntjük díjazottunkat! Cégünk elnyerte az "Év Vállalkozója" díjat, elismerve kiemelkedő teljesítményét és piacvezető szerepét...</p>
+                <a asp-action="Details" asp-route-id="5" class="card-link">Tudjon meg többet</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <img src="images/form_filling.jpg" alt="Irat kitöltés egy számítógép előtt" class="card-img-top" />
+            <div class="card-body">
+                <h5 class="card-title">Frissített könyvelési szoftverek elérhetők</h5>
+                <p class="card-text">Új verziók érhetők el könyvelési szoftvereinkből, optimalizálva az adminisztrációs folyamatokat és növelve hatékonyságukat...</p>
+                <a asp-action="Details" asp-route-id="6" class="card-link">Tudjon meg többet</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h5 class="card-title">Képzések a legfrissebb adóváltozásokról</h5>
+                <p class="card-text">Ingyenes online képzéseket kínálunk a legfrissebb adóváltozásokról, segítve ügyfeleinket az új előírásokkal való könnyebb megbirkózásban...</p>
+                <a asp-action="Details" asp-route-id="7" class="card-link">Tudjon meg többet</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h5 class="card-title">Online számviteli konzultációk elérhetők</h5>
+                <p class="card-text">Intézetünk online számviteli konzultációkat kínál ügyfeleinek, segítve az egyéni pénzügyi célok elérését...</p>
+                <a asp-action="Details" asp-route-id="8" class="card-link">Tudjon meg többet</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-lg-4 mb-4">
+        <div class="card shadow">
+            <div class="card-body">
+                <h5 class="card-title">Adóvisszatérítési tájékoztató: így optimalizálja visszatérítését</h5>
+                <p class="card-text">Praktikus tippeket kínálunk az adóvisszatérítés optimalizálásához, segítve ügyfeleinket a legnagyobb előnyök elérésében...</p>
+                <a asp-action="Details" asp-route-id="9" class="card-link">Tudjon meg többet</a>
+            </div>
+        </div>
+    </div>
+</div>

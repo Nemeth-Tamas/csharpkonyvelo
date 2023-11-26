@@ -1,0 +1,37 @@
+﻿@model KonyveloIroda.Models.Files
+
+@{
+    ViewData["Title"] = "Fájlok - Részletek";
+    var id = ViewData["ID"];
+}
+
+<h1>Részletek</h1>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.FileName)</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Feltöltés dátuma
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UploadDate)
+        </dd>
+        <dt class = "col-sm-2">
+            Fájl neve
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FileName)
+        </dd>
+        <dt class = "col-sm-2">
+            Fájl elérési útja
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.URL)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Download" class="btn btn-success" asp-route-id="@id">Fájl letöltése</a>
+    <a asp-action="Index" class="btn btn-outline-primary">Vissza a listához</a>
+</div>

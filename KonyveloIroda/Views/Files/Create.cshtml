@@ -1,0 +1,34 @@
+﻿@model KonyveloIroda.Models.Files
+
+@{
+    ViewData["Title"] = "Fájlok - Feltöltés";
+}
+
+<h1>Feltöltés</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4 col-sm-12"></div>
+    <div class="col-md-4 col-sm-12">
+        <form asp-action="CreatePost" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="FileName" class="control-label">Fájl neve (kiterjesztés nélkül)</label>
+                <input asp-for="FileName" class="form-control" name="fileName" autocomplete="off" />
+                <span asp-validation-for="FileName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label for="file" class="control-label">Válasszon fájlt:</label>
+                <input id="file" name="file" class="form-control" type="file" />
+            </div>
+            <div class="form-group mt-4 d-flex w-100 gap-5">
+                <a asp-action="Index" class="flex-grow-1 btn btn-outline-danger">Mégse</a>
+                <input type="submit" value="Feltöltés" class="flex-grow-1 btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<KonyveloIroda.Models.Files>
+
+@{
+    ViewData["Title"] = "Fájlok";
+}
+
+<h1>Fájlok</h1>
+
+<p>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create" class="btn btn-outline-success">Új fájl feltöltése</a>
+    }
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Feltöltés dátuma
+            </th>
+            <th>
+                Fájl neve
+            </th>
+            <th>
+                Fájl elérési útja
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UploadDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FileName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.URL)
+                </td>
+                <td class="d-flex">
+                    <a asp-action="Details" asp-route-id="@item.ID" class="btn btn-primary">Részletek</a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div>&nbsp;| <a asp-action="Delete" asp-route-id="@item.ID" class="btn btn-danger">Törlés</a></div>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
