@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "inPP9ET2Ndq/bYMIWx4qd9o7OuzHRcruuav9Fgq/69P1bSiUR6Hqrek+XsNC0NDOJcvS33zkLI6N+wfhVztrMw==",
+  "dgSpecHash": "EJAVvYjQGwYYm9HBp+5x9OZRKQdV3QnCZg2uGGzb+MOqxTX0GtZ6OaZapCLWwz+t9gNJ3Q8rxo/juX5yF1VYKg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\KonyveloIroda\\KonyveloIroda\\KonyveloIroda.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\KonyveloIroda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

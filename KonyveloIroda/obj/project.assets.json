@@ -11496,19 +11496,19 @@
   },
   "packageFolders": {
     "C:\\Users\\User\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\KonyveloIroda\\KonyveloIroda\\KonyveloIroda.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\KonyveloIroda.csproj",
       "projectName": "KonyveloIroda",
-      "projectPath": "C:\\Users\\User\\source\\repos\\KonyveloIroda\\KonyveloIroda\\KonyveloIroda.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\KonyveloIroda.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\KonyveloIroda\\KonyveloIroda\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -11520,7 +11520,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11587,7 +11586,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

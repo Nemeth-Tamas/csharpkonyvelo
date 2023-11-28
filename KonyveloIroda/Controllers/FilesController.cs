@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using KonyveloIroda.Data;
 using KonyveloIroda.Models;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.Features;
 
 namespace KonyveloIroda.Controllers
 {
@@ -83,10 +84,17 @@ namespace KonyveloIroda.Controllers
         public async Task<IActionResult> CreatePost(String fileName)
         {
             System.Diagnostics.Debug.WriteLine("Calling CreatePost");
+
             try
             {
                 System.Diagnostics.Debug.WriteLine("Inside try");
-                var file = HttpContext.Request.Form.Files[0];
+                var form = await Request.ReadFormAsync(new FormOptions()
+                {
+                    BufferBody = false, // Disable buffered body reading
+                    MultipartBodyLengthLimit = long.MaxValue // Allow large file uploads
+                });
+
+                var file = form.Files[0];
 
                 if (file != null && file.Length > 0)
                 {
@@ -98,7 +106,7 @@ namespace KonyveloIroda.Controllers
                         await file.CopyToAsync(stream);
                     }
 
-                    System.Diagnostics.Debug.WriteLine("File copyed");
+                    System.Diagnostics.Debug.WriteLine("File copied");
 
                     Files dbFile = new Files();
                     dbFile.UploadDate = DateTime.Now;
@@ -118,10 +126,6 @@ namespace KonyveloIroda.Controllers
             {
                 ViewBag.Message = "Hiba történt a fájl feltöltése közben: " + ex.Message;
             }
-
-            //return _context.Files != null ?
-            //              View("Index", await _context.Files.ToListAsync()) :
-            //              Problem("Entity set 'ApplicationDbContext.Files'  is null.");
 
             return RedirectToAction(nameof(Index));
         }

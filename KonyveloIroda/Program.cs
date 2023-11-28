@@ -1,5 +1,6 @@
 using KonyveloIroda.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.EntityFrameworkCore;
 
 namespace KonyveloIroda
@@ -20,6 +21,12 @@ namespace KonyveloIroda
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             builder.Services.AddControllersWithViews();
+
+            builder.Services.Configure<KestrelServerOptions>(options =>
+            {
+                options.Limits.MaxRequestBufferSize = 52428800; // 50MB
+                options.Limits.MaxRequestBodySize = 52428800; // 50MB
+            });
 
             var app = builder.Build();
 

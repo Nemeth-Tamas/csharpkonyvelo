@@ -9,127 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KonyveloIroda
 build_property.RootNamespace = KonyveloIroda
-build_property.ProjectDir = C:\Users\User\source\repos\KonyveloIroda\KonyveloIroda\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\User\Desktop\bemutato\csharpkonyvelo\KonyveloIroda\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\User\source\repos\KonyveloIroda\KonyveloIroda
+build_property.MSBuildProjectDirectory = C:\Users\User\Desktop\bemutato\csharpkonyvelo\KonyveloIroda
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Files/Create.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Files/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Files/Delete.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Files/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZXNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Files/Details.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Files/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZXNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Files/Index.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Files/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Home/Contact.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Home/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Home/Index.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/Index.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News1.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News1.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzMS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News2.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News2.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzMi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News3.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News3.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzMy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News4.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News4.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzNC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News5.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News5.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzNS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News6.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News6.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzNi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News7.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News7.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzNy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News8.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News8.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzOC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/News/News9.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/News/News9.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c1xOZXdzOS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Shared/Error.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/_ViewImports.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/_ViewStart.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/User/source/repos/KonyveloIroda/KonyveloIroda/Views/Shared/_Layout.cshtml]
+[C:/Users/User/Desktop/bemutato/csharpkonyvelo/KonyveloIroda/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ep7w794n4u
