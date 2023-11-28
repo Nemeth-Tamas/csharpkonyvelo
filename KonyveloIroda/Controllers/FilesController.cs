@@ -25,9 +25,8 @@ namespace KonyveloIroda.Controllers
         // GET: Files
         public async Task<IActionResult> Index()
         {
-              return _context.Files != null ? 
-                          View(await _context.Files.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Files'  is null.");
+            var files = await _context.Files.OrderByDescending(f => f.UploadDate).ToListAsync();
+            return files != null ? View(files) : Problem("Entity set 'ApplicationDbContext.Files' is null.");
         }
 
         // GET: Files/Details/5
@@ -79,12 +78,12 @@ namespace KonyveloIroda.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
-        [ValidateAntiForgeryToken]
+        //[ValidateAntiForgeryToken] Disabled for file upload. If enabled too bid file will crash the browser with 400 Response.
         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> CreatePost(String fileName)
         {
             System.Diagnostics.Debug.WriteLine("Calling CreatePost");
-
+            String Message = "";
             try
             {
                 System.Diagnostics.Debug.WriteLine("Inside try");
@@ -94,7 +93,8 @@ namespace KonyveloIroda.Controllers
                     MultipartBodyLengthLimit = long.MaxValue // Allow large file uploads
                 });
 
-                var file = form.Files[0];
+                var file = form.Files?.FirstOrDefault();
+
 
                 if (file != null && file.Length > 0)
                 {
@@ -115,17 +115,19 @@ namespace KonyveloIroda.Controllers
                     _context.Add(dbFile);
                     await _context.SaveChangesAsync();
 
-                    ViewBag.Message = "Fájl sikeresen feltöltve!";
+                    Message = "Fájl sikeresen feltöltve!";
                 }
                 else
                 {
-                    ViewBag.Message = "Nincs kiválasztott fájl!";
+                    Message = "Nincs kiválasztott fájl!";
                 }
             }
             catch (Exception ex)
             {
-                ViewBag.Message = "Hiba történt a fájl feltöltése közben: " + ex.Message;
+                Message = "Hiba történt a fájl feltöltése közben: " + ex.Message;
             }
+
+            TempData["message"] = Message;
 
             return RedirectToAction(nameof(Index));
         }

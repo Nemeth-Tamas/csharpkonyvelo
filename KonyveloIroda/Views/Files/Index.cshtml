@@ -6,6 +6,11 @@
 
 <h1>Fájlok</h1>
 
+@if (TempData["message"] != null)
+{
+    <p>@TempData["message"]</p>
+}
+
 <p>
     @if (User.IsInRole("Admin"))
     {

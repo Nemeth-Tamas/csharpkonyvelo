@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2QKwFuegeMEGfHA5c/+eGIxKa8Dk7sSGaCKi01kJFoU=",
+  "Hash": "DyFDUvTrfX/GMQF2T8Cc9NrJHDNFsjL+B3ws+oQVIxA=",
   "Source": "KonyveloIroda",
   "BasePath": "_content/KonyveloIroda",
   "Mode": "Default",
@@ -2159,23 +2159,6 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\Tartalom\\matek.png",
-      "SourceId": "KonyveloIroda",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\",
-      "BasePath": "_content/KonyveloIroda",
-      "RelativePath": "Tartalom/matek.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Tartalom\\matek.png"
-    },
-    {
       "Identity": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\Tartalom\\test.png",
       "SourceId": "KonyveloIroda",
       "SourceType": "Discovered",
@@ -2191,6 +2174,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Tartalom\\test.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\Tartalom\\test2.png",
+      "SourceId": "KonyveloIroda",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\",
+      "BasePath": "_content/KonyveloIroda",
+      "RelativePath": "Tartalom/test2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Tartalom\\test2.png"
     }
   ]
 }
