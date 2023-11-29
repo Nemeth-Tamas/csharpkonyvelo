@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Tartalom\\test2.png"
     },
     {
+      "Id": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\Tartalom\\test3.jpg",
+      "PackagePath": "staticwebassets\\Tartalom\\test3.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

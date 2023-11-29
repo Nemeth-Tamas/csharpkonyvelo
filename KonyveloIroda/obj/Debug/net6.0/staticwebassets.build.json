@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DyFDUvTrfX/GMQF2T8Cc9NrJHDNFsjL+B3ws+oQVIxA=",
+  "Hash": "2099fHUp1bjwrUFpZjKL31S4T0+enTLEhIbXWaqLlD0=",
   "Source": "KonyveloIroda",
   "BasePath": "_content/KonyveloIroda",
   "Mode": "Default",
@@ -2191,6 +2191,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Tartalom\\test2.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\Tartalom\\test3.jpg",
+      "SourceId": "KonyveloIroda",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Desktop\\bemutato\\csharpkonyvelo\\KonyveloIroda\\wwwroot\\",
+      "BasePath": "_content/KonyveloIroda",
+      "RelativePath": "Tartalom/test3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Tartalom\\test3.jpg"
     }
   ]
 }
